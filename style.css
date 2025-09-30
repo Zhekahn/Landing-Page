@@ -1,3 +1,91 @@
 *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+body{
   font-family: Roboto;
 }
+
+.container{
+  margin: 0 auto;
+  padding: 30px;
+}
+.button{
+    background-color: goldenrod;
+  border-radius: 12px;
+  height: 2rem;
+  width: 4rem;
+}
+.button a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.button a:hover{
+  color: #efdc0b;
+}
+
+/* NAVBAR  */
+.navbar{
+  background-color: #1f2937;
+  height: 60px;
+}
+.navbar .logo{
+  color: #f9faf8;
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar a:hover{
+  color: #efdc0b;
+}
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  margin-left: 20px;
+}
+ul{
+  list-style-type: none;
+}
+
+/* HEADER */
+.header{
+  background-color: #1f2937;
+}
+.header .container{
+  color: white;
+  display: flex; 
+  height: 300px;
+}
+.header .container div{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+  margin: 10px;
+  justify-content: space-between;
+}
+.header .container img{
+  width: 500px;
+  margin-left: 50px;  
+}
+
+/* IMAGE-BOXES */
+
