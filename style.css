@@ -2,16 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;  
+}
 body{
   font-family: Roboto;
 }
-
 .container{
   margin: 0 auto;
   padding: 30px;
 }
 .button{
-    background-color: goldenrod;
+  background-color: goldenrod;
   border-radius: 12px;
   height: 2rem;
   width: 4rem;
@@ -97,7 +97,7 @@ ul{
 
 /* IMAGE-BOXES */
 .image-boxes{
-  background-color: lightgoldenrodyellow;
+  background-color: goldenrod;
 }
 .image-boxes .container{
   margin-left: 150px;
@@ -105,7 +105,7 @@ ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 100px;
   padding: 30px;
 }
 .image-boxes .container h2{
@@ -119,14 +119,69 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 200px;
 }
 .image-boxes .container .box img{
   border: solid 3px;
   height: 200px;
   width: 200px;
+  border-radius: 10px;
 }
 .image-boxes .container .box p{
   text-align: center;
   margin-top: 10px;
+}
+
+/* QUOTE */
+.quote{
+  background-color: #e5e7eb;
+}
+.quote .container{
+  display: flex;
+  height: 400px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  margin-right: 150px;
+}
+.quote .container h4{
+  align-self: flex-end;
+}
+
+/* ACTION-CALL */
+.action-call{
+  height: 400px;
+}
+.action-call .container{
+  display: flex;
+  background-color: #3882f6;
+  width: 1400px; 
+  color: white;
+  flex-direction: column;
+  padding: 50px;
+  align-items: flex-start;  
+  margin: 200px;
+  border-radius: 15px;
+}
+.action-call .container h2{
+  margin-left: 200px;
+}
+.action-call .container p{
+  margin-left: 200px;
+}
+.action-call .container .button{
+  align-self: flex-end;
+  width: 150px;
+  margin-right: 250px;
+}
+.footer{
+  background-color: #1f2937;
+}
+.footer .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
